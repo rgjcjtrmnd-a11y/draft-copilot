@@ -1,7 +1,7 @@
 {
-  "name": "Draft Copilot",
-  "short_name": "Draft Copilot",
-  "description": "Your league. Your rules. Your rivals. Live news. One clear pick.",
+  "name": "MatchupMind",
+  "short_name": "MatchupMind",
+  "description": "Know the room. Make the move. Fantasy sports, understood.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
