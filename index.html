@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--
+      viewport-fit=cover plus the safe-area insets in CSS is what keeps content clear of the
+      iPhone notch and home indicator once the app is launched from the Home Screen, where
+      there is no browser chrome to absorb them.
+    -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=5"
+    />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#0d2033" />
+    <title>Draft Copilot</title>
+
+    <!-- Standalone launch on iOS. Safari still reads these rather than the web manifest. -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Draft Copilot" />
+    <link rel="apple-touch-icon" href="/draft-copilot/icons/icon-180.png" />
+
+    <link rel="manifest" href="/draft-copilot/manifest.webmanifest" />
+    <link rel="icon" href="/draft-copilot/icons/icon-192.png" />
+    <script type="module" crossorigin src="/draft-copilot/assets/index-C9p26lTM.js"></script>
+    <link rel="stylesheet" crossorigin href="/draft-copilot/assets/index-A3-cceN8.css">
+  </head>
+  <body>
+    <div id="app" aria-busy="true"></div>
+  </body>
+</html>

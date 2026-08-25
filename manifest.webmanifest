@@ -1,0 +1,46 @@
+{
+  "name": "Draft Copilot",
+  "short_name": "Draft Copilot",
+  "description": "Your league. Your rules. Your rivals. Live news. One clear pick.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#081421",
+  "theme_color": "#0d2033",
+  "categories": ["sports", "utilities"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Draft Mode",
+      "short_name": "Draft",
+      "url": "./?view=draft",
+      "description": "Open the live draft board"
+    },
+    {
+      "name": "Live Intel",
+      "short_name": "Intel",
+      "url": "./?view=intel",
+      "description": "Open the news feed"
+    }
+  ]
+}
